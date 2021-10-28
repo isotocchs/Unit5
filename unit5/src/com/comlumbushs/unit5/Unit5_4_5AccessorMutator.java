@@ -16,7 +16,7 @@ public class Unit5_4_5AccessorMutator {
 		
 		//overloaded constructor 
 		
-		public Unit5_4_5AccessorMutator(String a, int b, int c) {
+		public Unit5_4_5AccessorMutator(String a, int b) {
 			name = a;
 			calories = b;
 			
@@ -39,6 +39,23 @@ public class Unit5_4_5AccessorMutator {
 		public void setCalories(int c) {
 			calories = c;
 		}
+		
+		//Variation of mutator method.
+		public void addCalorie() {
+			//calories=calories+1;
+			calories++;
+		}
+		
+		
+		
+		
+		
+		//toString Method - called when you try to print the object.
+		//header must always be the same - public String toString()
+		
+//		public String toString() {
+//			return "Product: "+name+"\nCalories: "+calories;
+//		}
 		
 		
 

@@ -4,17 +4,22 @@ public class Unit5Main {
 
 	public static void main(String[] args) {
 		Unit5_1_3ClassesReview classRev = new Unit5_1_3ClassesReview();
-		classRev.setWeight(15);
-		int weightMain = classRev.getWeight();
+//		classRev.setWeight(15);
+//		int weightMain = classRev.getWeight();
+//		
+//		System.out.println(weightMain);
 		
-		System.out.println(weightMain);
 		
-		int sum =0;
-		for(int k =1;k<=30;k=k+2) {
-			sum+=k;
-		}
-		System.out.println(sum);
+		Unit5_4_5AccessorMutator methodRev = new Unit5_4_5AccessorMutator();
+		//Set Name and Calories?
 		
+		
+		
+		//Print out the name and calories?
+		
+		
+		
+		//Change name and calories
 		
 		
 	}
