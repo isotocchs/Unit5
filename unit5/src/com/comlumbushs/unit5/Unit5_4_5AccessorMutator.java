@@ -53,9 +53,9 @@ public class Unit5_4_5AccessorMutator {
 		//toString Method - called when you try to print the object.
 		//header must always be the same - public String toString()
 		
-//		public String toString() {
-//			return "Product: "+name+"\nCalories: "+calories;
-//		}
+		public String toString() {
+			return "Product: "+name+"\nCalories: "+calories;
+		}
 		
 		
 
