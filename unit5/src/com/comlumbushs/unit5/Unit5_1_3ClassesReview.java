@@ -38,9 +38,14 @@ public class Unit5_1_3ClassesReview {
 	//mutator methods
 	public void setWeight(int c) {
 		weight = c;
+		apples();
 	}
 	
 	//Encapsulation
+	
+	public void apples() {
+		System.out.println("Apples");
+	}
 	
 
 }

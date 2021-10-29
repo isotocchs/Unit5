@@ -24,5 +24,9 @@ public class Unit5Main {
 		
 		
 	}
+	
+	public void apples() {
+		System.out.println("Apples");
+	}
 
 }
