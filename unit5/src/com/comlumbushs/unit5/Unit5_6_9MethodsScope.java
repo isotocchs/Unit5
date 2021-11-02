@@ -16,30 +16,30 @@ public class Unit5_6_9MethodsScope {
 		return parameter.equals("Apple");
 	}
 	
-	// Static methods - they belong to the class not the method
+	// Static methods - they belong to the class not the object
 	//				  - do not have access to the instance variables because those 
 	//						belong to the object
 	//				  - only have access to static variables
 	// 				  - does not have access to 'this' reference
 	
-	private String instanceString;
-	private int instanceInt;
+	private String name;
+	private int age;
 	private static int classInt = 1;
 	
 	public void setString(String a) {
-		instanceString=a;
+		name=a;
 	}
 	
 	public void setInt(int b) {
-		instanceInt=b;
+		age=b;
 	}
 	
 	public String getString() {
-		return instanceString;
+		return name;
 	}
-	
+//	
 	public int getInt() {
-		return instanceInt;
+		return age;
 	}
 	
 	public static int getStatInt() {
@@ -53,15 +53,15 @@ public class Unit5_6_9MethodsScope {
 	//this keyword -refers to the current object using the method or constructor.
 	
 	//constructor example
-	public void Unit5_6_9MethodsScope(String instanceString, int instanceInt) {
-		this.instanceString = instanceString;
-		this.instanceInt = instanceInt;
+	public void Unit5_6_9MethodsScope(String name, int age) {
+		this.name = name;
+		this.age = age;
 	}
 	
 	//call a method
 	public void addOne() {
 		
-		int addedOne = this.getInt()+1;
+		String addedOne = this.name;
 		
 	}
 	
