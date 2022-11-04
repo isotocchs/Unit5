@@ -7,15 +7,16 @@ public class Unit5Main {
 		Unit5_1_3ClassesReview classRev = new Unit5_1_3ClassesReview();
         System.out.println("-----------------------");
 
-        // String nameTest = classRev.getName("Applesauce");
-        // System.out.println(nameTest);
-        System.out.println(classRev.getWeight());
+        String nameTest = classRev.getName("Applesauce");
+        System.out.println(nameTest);
+        // classRev.setWeight(45);
+        // System.out.println(classRev.getWeight());
+        
 
-
-		classRev.setWeight(15);
-		int weightMain = classRev.getWeight();
-//		
-		System.out.println(weightMain);
+// 		classRev.setWeight(15);
+// 		int weightMain = classRev.getWeight();
+// //		
+// 		System.out.println(weightMain);
 		
 		
 		Unit5_4_5AccessorMutator methodRev = new Unit5_4_5AccessorMutator("Pepsi",67);

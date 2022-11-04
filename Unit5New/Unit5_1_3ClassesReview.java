@@ -21,14 +21,15 @@ public class Unit5_1_3ClassesReview {
 		weight = c;
 	}
 
-    public Unit5_1_3ClassesReview(int ap, String ce, int tg) {
-		name = ce;
-		height = tg;
-		weight = tg;
+    public Unit5_1_3ClassesReview(int a, String b, int c) {
+		name = "ce";
+		height = a;
+		weight = c;
 	}
 	
 	//Accessor method
 	public String getName(String pass) {
+
         if(pass.equals("Applesauce")){
             return name;
         } else {
@@ -46,7 +47,9 @@ public class Unit5_1_3ClassesReview {
 	
 	//mutator methods
 	public void setWeight(int c) {
-		weight = c;
+		if (c > 0){
+			weight = c;
+		}
 		apples();
 	}
 	
