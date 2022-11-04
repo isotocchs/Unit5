@@ -5,10 +5,17 @@ public class Unit5Main {
 
 	public static void main(String[] args) {
 		Unit5_1_3ClassesReview classRev = new Unit5_1_3ClassesReview();
-//		classRev.setWeight(15);
-//		int weightMain = classRev.getWeight();
+        System.out.println("-----------------------");
+
+        // String nameTest = classRev.getName("Applesauce");
+        // System.out.println(nameTest);
+        System.out.println(classRev.getWeight());
+
+
+		classRev.setWeight(15);
+		int weightMain = classRev.getWeight();
 //		
-//		System.out.println(weightMain);
+		System.out.println(weightMain);
 		
 		
 		Unit5_4_5AccessorMutator methodRev = new Unit5_4_5AccessorMutator("Pepsi",67);
@@ -54,29 +61,34 @@ public class Unit5Main {
 		 
 
 		 String apple = "Apple";
-		 System.out.println(apple.indexOf("p",2));
+		//  System.out.println(apple.indexOf("p",2));
 		
 
 		 //int answer = numberOfLeapYears(2000, 2050);
 	     //System.out.println("Your answer should be 13: " + answer);
 	
-	
+         System.out.println("-----------------------");
+
+
+
 	}
 	
-	public static int numberOfLeapYears(int year1, int year2)
-	 {
-		int numLeapYears = 0;
-	   for(int i = year1;i<=year2;i++) {
-		   if(isLeapYear(i)) {
-			   numLeapYears++;
-		   }
-	   }
-	   return numLeapYears;
-	 }
+	// public static int numberOfLeapYears(int year1, int year2)
+	//  {
+	// 	int numLeapYears = 0;
+	//    for(int i = year1;i<=year2;i++) {
+	// 	   if(isLeapYear(i)) {
+	// 		   numLeapYears++;
+	// 	   }
+	//    }
+	//    return numLeapYears;
+	//  }
 	
-	private static boolean isLeapYear(int year)
-	 {
-	     return new GregorianCalendar().isLeapYear(year);
-	 }
+	// private static boolean isLeapYear(int year)
+	//  {
+	//      return new GregorianCalendar().isLeapYear(year);
+	//  }
+
+     
 
 }

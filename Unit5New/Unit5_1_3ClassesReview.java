@@ -8,7 +8,7 @@ public class Unit5_1_3ClassesReview {
 	
 	//default constructor 
 	public Unit5_1_3ClassesReview() {
-		name = "";
+		name = "Tomas";
 		height = 0;
 		weight = 0;
 	}
@@ -20,10 +20,20 @@ public class Unit5_1_3ClassesReview {
 		height = b;
 		weight = c;
 	}
+
+    public Unit5_1_3ClassesReview(int ap, String ce, int tg) {
+		name = ce;
+		height = tg;
+		weight = tg;
+	}
 	
 	//Accessor method
-	public String getName() {
-		return name;
+	public String getName(String pass) {
+        if(pass.equals("Applesauce")){
+            return name;
+        } else {
+            return "wrong password";
+        }
 	}
 	public int getWeight() {
 		return weight;
