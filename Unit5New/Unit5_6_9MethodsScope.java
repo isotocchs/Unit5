@@ -53,9 +53,9 @@ public class Unit5_6_9MethodsScope {
 	//this keyword -refers to the current object using the method or constructor.
 	
 	//constructor example
-	public Unit5_6_9MethodsScope(String name, int age) {
-		this.name = name;
-		this.age = age;
+	public Unit5_6_9MethodsScope(String a, int b) {
+		this.name = a;
+		this.age = b;
 	}
 	
 	//call a method
