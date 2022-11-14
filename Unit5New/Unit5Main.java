@@ -8,7 +8,7 @@ public class Unit5Main {
         System.out.println("-----------------------");
 
         String nameTest = classRev.getName("Applesauce");
-        System.out.println(nameTest);
+        // System.out.println(nameTest);
         // classRev.setWeight(45);
         // System.out.println(classRev.getWeight());
         
@@ -30,18 +30,26 @@ public class Unit5Main {
 		
 		
 		//Change name and calories
-		
+		dogClass dog1 = new dogClass(3, "Bob", 45, 12);
 //		//Not Static
-//		Unit5_6_9MethodsScope scopeObj = new Unit5_6_9MethodsScope();
+		Unit5_6_9MethodsScope scopeObj = new Unit5_6_9MethodsScope("Something", 5);
 //		//call non static methods from the object
-//		scopeObj.setInt(5);
-//		System.out.println(scopeObj.getInt());
+		scopeObj.setInt(5);
+		System.out.println(scopeObj.getString(dog1));
 //		
+		// System.out.println(scopeObj.getStatInt());
+
 //		Unit5_6_9MethodsScope scopeObj2 = new Unit5_6_9MethodsScope();
 //		scopeObj2.setInt(34);
 //		System.out.println(scopeObj2.getInt());
 //		
-//		
+		// dogClass dog2 = new dogClass(45, "tim", 6, 67);
+		// System.out.println(dogClass.getSomething(5,6));
+
+		// dogClass dog1 = new dogClass(3, "Bob", 45, 12);
+
+		// System.out.println(dogClass.getSomething(6,7));
+
 //		
 //		//Static - called from the class
 //		Unit5_6_9MethodsScope.setStatInt(45);

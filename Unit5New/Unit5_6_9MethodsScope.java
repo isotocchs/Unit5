@@ -11,10 +11,11 @@ public class Unit5_6_9MethodsScope {
 	//4. Identifier - method name - should be meaningful as to what the method does
 	//5. Parameter list - what the method takes in if anything.
 	
-	public boolean methodID(String parameter) {
+	public boolean methodID(String parameter, int apple, boolean someth) {
 		return parameter.equals("Apple");
 	}
 	
+
 	// Static methods - they belong to the class not the object
 	//				  - do not have access to the instance variables because those 
 	//						belong to the object
@@ -32,9 +33,9 @@ public class Unit5_6_9MethodsScope {
 	public void setInt(int b) {
 		age=b;
 	}
-	
-	public String getString() {
-		return name;
+
+	public int getString(dogClass some) {
+		return some.getAge();
 	}
 //	
 	public int getInt() {
@@ -52,7 +53,7 @@ public class Unit5_6_9MethodsScope {
 	//this keyword -refers to the current object using the method or constructor.
 	
 	//constructor example
-	public void Unit5_6_9MethodsScope(String name, int age) {
+	public Unit5_6_9MethodsScope(String name, int age) {
 		this.name = name;
 		this.age = age;
 	}
