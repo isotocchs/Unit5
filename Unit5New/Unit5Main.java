@@ -7,6 +7,10 @@ public class Unit5Main {
 		Unit5_1_3ClassesReview classRev = new Unit5_1_3ClassesReview();
         System.out.println("-----------------------");
 
+		// classRev.setWeight(60);
+		// int weights = classRev.getWeight();
+		// System.out.println(weights);
+
         String nameTest = classRev.getName("Applesauce");
         // System.out.println(nameTest);
         // classRev.setWeight(45);
@@ -30,12 +34,12 @@ public class Unit5Main {
 		
 		
 		//Change name and calories
-		dogClass dog1 = new dogClass(3, "Bob", 45, 12);
+		// dogClass dog1 = new dogClass(3, "Bob", 45, 12);
 //		//Not Static
-		Unit5_6_9MethodsScope scopeObj = new Unit5_6_9MethodsScope("Something", 5);
+		// Unit5_6_9MethodsScope scopeObj = new Unit5_6_9MethodsScope("Something", 5);
 //		//call non static methods from the object
-		scopeObj.setInt(5);
-		System.out.println(scopeObj.getString(dog1));
+		// scopeObj.setInt(5);
+		// System.out.println(scopeObj.getString(dog1));
 //		
 		// System.out.println(scopeObj.getStatInt());
 
@@ -43,12 +47,19 @@ public class Unit5Main {
 //		scopeObj2.setInt(34);
 //		System.out.println(scopeObj2.getInt());
 //		
-		// dogClass dog2 = new dogClass(45, "tim", 6, 67);
-		// System.out.println(dogClass.getSomething(5,6));
+		dogClass dog2 = new dogClass(45, "tim", 6, 67);
+		System.out.println(dogClass.getSomething());
+		System.out.println(dog2.getAge());
 
-		// dogClass dog1 = new dogClass(3, "Bob", 45, 12);
 
-		// System.out.println(dogClass.getSomething(6,7));
+
+		dogClass dog1 = new dogClass(3, "Bob", 45, 12);
+
+
+		
+		System.out.println(dogClass.getSomething());
+		System.out.println(dog1.getSomething());
+		System.out.println(dog2.getSomething());
 
 //		
 //		//Static - called from the class

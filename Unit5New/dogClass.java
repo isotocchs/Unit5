@@ -17,8 +17,8 @@ public class dogClass {
         return age;
     };
 
-    public static int getSomething(int a, int b){
-        something = a+b;
+    public static int getSomething(){
+        // something = a+b;
         return something;
     }
     
